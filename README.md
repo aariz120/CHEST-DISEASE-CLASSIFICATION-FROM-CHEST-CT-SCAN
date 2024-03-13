@@ -35,7 +35,24 @@ conda activate chest
 
 pip install -r requirements.txt
 ''''
+python app.py
+'''
+
+## Mlflow dagshub connection uri
+'''''
+
+ MLFLOW_TRACKING_URI=https://dagshub.com/aariz120/Mlflow-Experiment-demo.mlflow \
+ MLFLOW_TRACKING_USERNAME=aariz120 \
+ MLFLOW_TRACKING_PASSWORD=35f449339f48eb1892339db57ff59a05c4094376 \
+ python script.py
+'''''
 
 
+## RUN from bash terminal
 
+'''''
+export MLFLOW_TRACKING_URI= https://dagshub.com/aariz120/Mlflow-Experiment-demo.mlflow 
 
+export MLFLOW_TRACKING_USERNAME= aariz120
+
+export MLFLOW_TRACKING_PASSWORD=35f449339f48eb1892339db57ff59a05c4094376
